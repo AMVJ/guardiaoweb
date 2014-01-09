@@ -1,0 +1,43 @@
+*{
+    /*Define  que todos os elementos da página, ficarão em negrito e com a fonte arial */
+    font-weight: bold;
+    font-family: arial;
+    /*Define a tamanho da fonte para todos os elementos */
+    font-size: 10px;
+}
+  
+.edit {
+    /*Define a borda do elemento, com um efeito de baixo-relevo menor que o padrão */
+    border: 1px inset;
+    /*Especifica a cor cinza, como pano de fundo do elemento */
+    background-color: #D3D3D3;
+    /*Especifica como preta a  cor da fonte do elemento */
+    color: #000000;
+}
+ 
+ 
+.botoes {
+    /*Especifica a cor chocolate, como pano de fundo do elemento */
+    background-color: #D2691E;
+    /*Especifica como preta a cor da fonte do elemento */
+    color: #FFFFFF;
+    /*Define a borda do elemento, com um efeito de alto-relevo menor que o padrão */
+    border: 1px outset;
+}
+ 
+.rotulos {
+    /*Especifica preta a cor da fonte do elemento */
+    color: #000000;
+}
+ 
+ 
+legend{
+    /*Define a tamanho da fonte para a legenda do FieldSet */
+    font-size: 12px
+}
+
+.alertaMensagem{
+	color: red;
+	font-style: oblique;
+	text-align: center;
+}

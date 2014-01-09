@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#pages#index.jsp" PATH="/pages/index.jsp"
+  SHAPE="288,33,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#index.jsp:0" NAME="item"
+   PATH="/pages/index.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="toConectarFtp::#pages#ftp#conectarFTP.jsp"
+    NAME="output" PATH="/pages/ftp/conectarFTP.jsp"
+    TARGET="rules:#pages#ftp#conectarFTP.jsp" TITLE="toConectarFtp" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#pages#index.jsp:1" NAME="item1"
+   PATH="/pages/index.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toCadastraUsuario::#pages#cadastroUsuario#cadastraUsuario.jsp"
+    NAME="output" PATH="/pages/cadastroUsuario/cadastraUsuario.jsp"
+    TARGET="rules:#pages#cadastroUsuario#cadastraUsuario.jsp"
+    TITLE="toCadastraUsuario" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#pages#index.jsp:2" NAME="item2"
+   PATH="/pages/index.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toCadastraCamera::#pages#cadastroCamera#cadastraCamera.jsp"
+    NAME="output" PATH="/pages/cadastroCamera/cadastraCamera.jsp"
+    TARGET="rules:#pages#cadastroCamera#cadastraCamera.jsp"
+    TITLE="toCadastraCamera" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#pages#index.jsp:3" NAME="item3"
+   PATH="/pages/index.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toAtualizaPessoa::#pages#cadastroPessoa#atualizaPessoa.jsp"
+    NAME="output" PATH="/pages/cadastroPessoa/atualizaPessoa.jsp"
+    TARGET="rules:#pages#cadastroPessoa#atualizaPessoa.jsp"
+    TITLE="toAtualizaPessoa" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#pages#index.jsp:4" NAME="item4"
+   PATH="/pages/index.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toCadastraPessoa::#pages#cadastroPessoa#cadastraPessoa.jsp"
+    NAME="output" PATH="/pages/cadastroPessoa/cadastraPessoa.jsp"
+    TARGET="rules:#pages#cadastroPessoa#cadastraPessoa.jsp"
+    TITLE="toCadastraPessoa" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#pages#index.jsp:5" NAME="item5"
+   PATH="/pages/index.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toPesquisaPessoa::#pages#cadastroPessoa#pesquisaPessoa.jsp"
+    NAME="output" PATH="/pages/cadastroPessoa/pesquisaPessoa.jsp"
+    TARGET="rules:#pages#cadastroPessoa#pesquisaPessoa.jsp"
+    TITLE="toPesquisaPessoa" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#pages#index.jsp:6" NAME="item6"
+   PATH="/pages/index.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toListagemCamera::#pages#cadastroCamera#listagemCameras.jsp"
+    NAME="output" PATH="/pages/cadastroCamera/listagemCameras.jsp"
+    TARGET="rules:#pages#cadastroCamera#listagemCameras.jsp"
+    TITLE="toListagemCamera" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#pages#index.jsp:7" NAME="item7"
+   PATH="/pages/index.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="toRemovePessoa::#pages#cadastroPessoa#removePessoa.jsp"
+    NAME="output" PATH="/pages/cadastroPessoa/removePessoa.jsp"
+    TARGET="rules:#pages#cadastroPessoa#removePessoa.jsp"
+    TITLE="toRemovePessoa" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cadastroPessoa#atualizaPessoa.jsp"
+  PATH="/pages/cadastroPessoa/atualizaPessoa.jsp" SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cadastroPessoa#atualizaPessoa.jsp:0"
+   NAME="item" PATH="/pages/cadastroPessoa/atualizaPessoa.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="toIndex::#pages#index.jsp" NAME="output"
+    PATH="/pages/index.jsp" TARGET="rules:#pages#index.jsp"
+    TITLE="toIndex" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cadastroPessoa#cadastraPessoa.jsp"
+  PATH="/pages/cadastroPessoa/cadastraPessoa.jsp" SHAPE="32,321,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cadastroPessoa#cadastraPessoa.jsp:0"
+   NAME="item" PATH="/pages/cadastroPessoa/cadastraPessoa.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="toIndex::#pages#index.jsp" NAME="output"
+    PATH="/pages/index.jsp" TARGET="rules:#pages#index.jsp"
+    TITLE="toIndex" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cadastroPessoa#pesquisaPessoa.jsp"
+  PATH="/pages/cadastroPessoa/pesquisaPessoa.jsp" SHAPE="32,433,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cadastroPessoa#pesquisaPessoa.jsp:0"
+   NAME="item" PATH="/pages/cadastroPessoa/pesquisaPessoa.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="toIndex::#pages#index.jsp" NAME="output"
+    PATH="/pages/index.jsp" TARGET="rules:#pages#index.jsp"
+    TITLE="toIndex" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cadastroPessoa#removePessoa.jsp"
+  PATH="/pages/cadastroPessoa/removePessoa.jsp" SHAPE="560,545,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#cadastroPessoa#removePessoa.jsp:0"
+   NAME="item" PATH="/pages/cadastroPessoa/removePessoa.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="toIndex::#pages#index.jsp" NAME="output"
+    PATH="/pages/index.jsp" TARGET="rules:#pages#index.jsp"
+    TITLE="toIndex" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#cadastroUsuario#cadastraUsuario.jsp"
+  PATH="/pages/cadastroUsuario/cadastraUsuario.jsp" SHAPE="560,321,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#ftp#conectarFTP.jsp"
+  PATH="/pages/ftp/conectarFTP.jsp" SHAPE="560,17,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#cadastroCamera#cadastraCamera.jsp"
+  PATH="/pages/cadastroCamera/cadastraCamera.jsp" SHAPE="560,433,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#cadastroCamera#listagemCameras.jsp"
+  PATH="/pages/cadastroCamera/listagemCameras.jsp" SHAPE="560,353,0,0" model-entity="JSFProcessGroup"/>
+</PROCESS>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf12480543727031" configfile="/jsf/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="pages/index" x="338" y="754" id="pf12511411552100" referenceLink="//@navigationRule.2/@fromViewId|" outlinks="pf12511412785201 pf12511412785212 pf12511412785213 pf12511412785214 pf13883591235190 pf13883614529722 pf13887186050380" inlinks="pf12511413435799 pf125114134357910 pf125114134357911 pf125114134357912" path="/pages/index.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/cadastroPessoa/atualizaPessoa" x="122" y="178" id="pf12511412785215" referenceLink="//@navigationRule.6/@fromViewId|" outlinks="pf12511413435799" inlinks="pf12511412785201" path="/pages/cadastroPessoa/atualizaPessoa.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/cadastroPessoa/cadastraPessoa" x="122" y="562" id="pf12511412785226" referenceLink="//@navigationRule.7/@fromViewId|" outlinks="pf125114134357910" inlinks="pf12511412785212" path="/pages/cadastroPessoa/cadastraPessoa.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/cadastroPessoa/pesquisaPessoa" x="122" y="946" id="pf12511412785227" referenceLink="//@navigationRule.8/@fromViewId|" outlinks="pf125114134357911" inlinks="pf12511412785213" path="/pages/cadastroPessoa/pesquisaPessoa.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/cadastroPessoa/removePessoa" x="122" y="1330" id="pf12511412785228" referenceLink="//@navigationRule.9/@fromViewId|" outlinks="pf125114134357912" inlinks="pf12511412785214" path="/pages/cadastroPessoa/removePessoa.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/ftp/conectarFTP" x="554" y="754" id="pf13883591235191" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf13883591235190" path="/pages/ftp/conectarFTP.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/cadastroUsuario/cadastraUsuario" id="pf13883614529723" referenceLink="//@navigationRule.2/@navigationCase.0/@toViewId|" inlinks="pf13883614529722" path="/pages/cadastroUsuario/cadastraUsuario.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/cadastroCamera/cadastraCamera" id="pf13887186050381" referenceLink="//@navigationRule.2/@navigationCase.0/@toViewId|" inlinks="pf13887186050380" path="/pages/cadastroCamera/cadastraCamera.jsp"/>
+  <links id="pf12511412785201" target="pf12511412785215" source="pf12511411552100" outcome="toAtualizaPessoa"/>
+  <links id="pf12511412785212" target="pf12511412785226" source="pf12511411552100" outcome="toCadastraPessoa"/>
+  <links id="pf12511412785213" target="pf12511412785227" source="pf12511411552100" outcome="toPesquisaPessoa"/>
+  <links id="pf12511412785214" target="pf12511412785228" source="pf12511411552100" outcome="toRemovePessoa"/>
+  <links id="pf12511413435799" target="pf12511411552100" source="pf12511412785215" outcome="toIndex"/>
+  <links id="pf125114134357910" target="pf12511411552100" source="pf12511412785226" outcome="toIndex"/>
+  <links id="pf125114134357911" target="pf12511411552100" source="pf12511412785227" outcome="toIndex"/>
+  <links id="pf125114134357912" target="pf12511411552100" source="pf12511412785228" outcome="toIndex"/>
+  <links id="pf13883591235190" target="pf13883591235191" source="pf12511411552100" outcome="toConectarFtp"/>
+  <links id="pf13883614529722" target="pf13883614529723" source="pf12511411552100" outcome="toCadastraUsuario"/>
+  <links id="pf13887186050380" target="pf13887186050381" source="pf12511411552100" outcome="toCadastraCamera"/>
+</pageflow:Pageflow>
